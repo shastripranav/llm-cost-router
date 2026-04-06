@@ -1,0 +1,21 @@
+timestamp,model,prompt,response,prompt_tokens,completion_tokens
+2026-01-10T09:15:00Z,gpt-4o,Translate hello to Spanish,Hola,25,8
+2026-01-10T10:30:00Z,gpt-4o,What is 2+2?,4,15,5
+2026-01-11T08:00:00Z,claude-3.5-sonnet,Summarize this article about climate change,The article discusses rising temperatures and policy responses.,120,85
+2026-01-12T14:20:00Z,gpt-4o-mini,List 3 programming languages,Python Java JavaScript,18,12
+2026-01-13T09:00:00Z,gpt-4o,"Write a product description for a coffee maker","The BrewMaster 3000 delivers barista-quality coffee at home.",280,350
+2026-01-15T11:30:00Z,claude-3.5-sonnet,"Analyze the pros and cons of remote work for engineering teams","Remote work offers flexibility but challenges collaboration.",450,500
+2026-01-16T16:45:00Z,mistral-large,"Write unit tests for this function","```python\ndef test_add():\n    assert add(2,3) == 5\n```",350,600
+2026-01-18T08:15:00Z,gpt-4o,"Design a REST API for a todo app","POST /todos, GET /todos, PUT /todos/:id, DELETE /todos/:id",400,450
+2026-01-19T13:00:00Z,gemini-1.5-pro,Explain quantum computing in simple terms,Quantum computing uses qubits instead of bits to process information exponentially faster.,60,90
+2026-01-20T10:00:00Z,gpt-4o-mini,Convert this JSON to YAML,"{""key"": ""value""}",180,120
+2026-01-22T09:30:00Z,claude-3.5-sonnet,"Implement a binary search tree in Python with insert and search methods","```python\nclass BST:\n    def __init__(self):\n        self.root = None\n```",200,1200
+2026-01-25T14:00:00Z,gpt-4o,,, 1500,900
+2026-02-01T08:00:00Z,gpt-4-turbo,,,2200,1400
+2026-02-03T11:15:00Z,claude-3.5-sonnet,,,800,600
+2026-02-05T09:45:00Z,gpt-4o-mini,Define photosynthesis,The process by which plants convert sunlight into energy.,22,30
+2026-02-08T15:30:00Z,gpt-4o,,,350,250
+2026-02-10T10:00:00Z,mistral-large,,,420,380
+2026-02-12T08:30:00Z,gpt-4o,"Debug this recursive function that calculates factorial","The base case should be n <= 1 not n == 0.",300,500
+2026-02-15T16:00:00Z,gemini-1.5-pro,,,550,400
+2026-02-18T09:00:00Z,gpt-4o,Classify this email as spam or not spam,Not spam,35,6
