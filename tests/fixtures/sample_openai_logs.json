@@ -1,0 +1,360 @@
+[
+  {
+    "id": "chatcmpl-001",
+    "model": "gpt-4o",
+    "created": 1767657600,
+    "usage": {"prompt_tokens": 32, "completion_tokens": 18, "total_tokens": 50},
+    "messages": [{"role": "user", "content": "Translate 'good morning' to Japanese"}],
+    "choices": [{"message": {"role": "assistant", "content": "おはようございます (Ohayō gozaimasu)"}}]
+  },
+  {
+    "id": "chatcmpl-002",
+    "model": "gpt-4o",
+    "created": 1767744000,
+    "usage": {"prompt_tokens": 45, "completion_tokens": 35, "total_tokens": 80},
+    "messages": [{"role": "user", "content": "Summarize this in one sentence: The European Union announced new trade agreements with several Asian nations, focusing on reducing tariffs for tech and agriculture sectors."}],
+    "choices": [{"message": {"role": "assistant", "content": "The EU signed trade deals with Asian countries to lower tech and agriculture tariffs."}}]
+  },
+  {
+    "id": "chatcmpl-003",
+    "model": "gpt-4o-mini",
+    "created": 1767830400,
+    "usage": {"prompt_tokens": 28, "completion_tokens": 12, "total_tokens": 40},
+    "messages": [{"role": "user", "content": "Classify the sentiment: 'This product exceeded all my expectations'"}],
+    "choices": [{"message": {"role": "assistant", "content": "Positive"}}]
+  },
+  {
+    "id": "chatcmpl-004",
+    "model": "gpt-4o",
+    "created": 1767916800,
+    "usage": {"prompt_tokens": 22, "completion_tokens": 15, "total_tokens": 37},
+    "messages": [{"role": "user", "content": "What is the capital of Australia?"}],
+    "choices": [{"message": {"role": "assistant", "content": "The capital of Australia is Canberra."}}]
+  },
+  {
+    "id": "chatcmpl-005",
+    "model": "gpt-4o-mini",
+    "created": 1768003200,
+    "usage": {"prompt_tokens": 30, "completion_tokens": 20, "total_tokens": 50},
+    "messages": [{"role": "user", "content": "Convert 72 degrees Fahrenheit to Celsius"}],
+    "choices": [{"message": {"role": "assistant", "content": "72°F is approximately 22.2°C."}}]
+  },
+  {
+    "id": "chatcmpl-006",
+    "model": "gpt-4o",
+    "created": 1768089600,
+    "usage": {"prompt_tokens": 40, "completion_tokens": 25, "total_tokens": 65},
+    "messages": [{"role": "user", "content": "Fix the grammar: 'Me and him went to store yesterday'"}],
+    "choices": [{"message": {"role": "assistant", "content": "He and I went to the store yesterday."}}]
+  },
+  {
+    "id": "chatcmpl-007",
+    "model": "gpt-4-turbo",
+    "created": 1768176000,
+    "usage": {"prompt_tokens": 18, "completion_tokens": 30, "total_tokens": 48},
+    "messages": [{"role": "user", "content": "Define the word 'ephemeral'"}],
+    "choices": [{"message": {"role": "assistant", "content": "Ephemeral: lasting for a very short time; transitory."}}]
+  },
+  {
+    "id": "chatcmpl-008",
+    "model": "gpt-4o-mini",
+    "created": 1768262400,
+    "usage": {"prompt_tokens": 25, "completion_tokens": 50, "total_tokens": 75},
+    "messages": [{"role": "user", "content": "List the 5 largest planets in our solar system"}],
+    "choices": [{"message": {"role": "assistant", "content": "1. Jupiter\n2. Saturn\n3. Uranus\n4. Neptune\n5. Earth"}}]
+  },
+  {
+    "id": "chatcmpl-009",
+    "model": "gpt-4o",
+    "created": 1768348800,
+    "usage": {"prompt_tokens": 35, "completion_tokens": 28, "total_tokens": 63},
+    "messages": [{"role": "user", "content": "Rewrite this formally: 'Hey, just checking in on that thing we talked about'"}],
+    "choices": [{"message": {"role": "assistant", "content": "I am writing to follow up on the matter we previously discussed."}}]
+  },
+  {
+    "id": "chatcmpl-010",
+    "model": "gpt-4o-mini",
+    "created": 1768435200,
+    "usage": {"prompt_tokens": 20, "completion_tokens": 8, "total_tokens": 28},
+    "messages": [{"role": "user", "content": "How many continents are there?"}],
+    "choices": [{"message": {"role": "assistant", "content": "There are 7 continents."}}]
+  },
+  {
+    "id": "chatcmpl-011",
+    "model": "gpt-4o",
+    "created": 1768521600,
+    "usage": {"prompt_tokens": 55, "completion_tokens": 30, "total_tokens": 85}
+  },
+  {
+    "id": "chatcmpl-012",
+    "model": "gpt-4o-mini",
+    "created": 1768608000,
+    "usage": {"prompt_tokens": 42, "completion_tokens": 22, "total_tokens": 64}
+  },
+  {
+    "id": "chatcmpl-013",
+    "model": "gpt-4o",
+    "created": 1768694400,
+    "usage": {"prompt_tokens": 80, "completion_tokens": 45, "total_tokens": 125}
+  },
+  {
+    "id": "chatcmpl-014",
+    "model": "gpt-4-turbo",
+    "created": 1768780800,
+    "usage": {"prompt_tokens": 65, "completion_tokens": 38, "total_tokens": 103}
+  },
+  {
+    "id": "chatcmpl-015",
+    "model": "gpt-4o-mini",
+    "created": 1768867200,
+    "usage": {"prompt_tokens": 90, "completion_tokens": 55, "total_tokens": 145}
+  },
+  {
+    "id": "chatcmpl-016",
+    "model": "gpt-4o",
+    "created": 1768953600,
+    "usage": {"prompt_tokens": 110, "completion_tokens": 70, "total_tokens": 180}
+  },
+  {
+    "id": "chatcmpl-017",
+    "model": "gpt-4o",
+    "created": 1769040000,
+    "usage": {"prompt_tokens": 48, "completion_tokens": 20, "total_tokens": 68}
+  },
+  {
+    "id": "chatcmpl-018",
+    "model": "gpt-4o-mini",
+    "created": 1769126400,
+    "usage": {"prompt_tokens": 75, "completion_tokens": 40, "total_tokens": 115}
+  },
+  {
+    "id": "chatcmpl-019",
+    "model": "gpt-4-turbo",
+    "created": 1769212800,
+    "usage": {"prompt_tokens": 130, "completion_tokens": 85, "total_tokens": 215}
+  },
+  {
+    "id": "chatcmpl-020",
+    "model": "gpt-4o-mini",
+    "created": 1769299200,
+    "usage": {"prompt_tokens": 95, "completion_tokens": 50, "total_tokens": 145}
+  },
+  {
+    "id": "chatcmpl-021",
+    "model": "gpt-4o",
+    "created": 1769385600,
+    "usage": {"prompt_tokens": 320, "completion_tokens": 180, "total_tokens": 500},
+    "messages": [{"role": "user", "content": "Extract the following fields from this text and return as JSON with keys name, email, phone: 'Contact John Smith at john.smith@example.com or call 555-0142 for more details about the project timeline.'"}],
+    "choices": [{"message": {"role": "assistant", "content": "{\"name\": \"John Smith\", \"email\": \"john.smith@example.com\", \"phone\": \"555-0142\"}"}}]
+  },
+  {
+    "id": "chatcmpl-022",
+    "model": "gpt-4o",
+    "created": 1769472000,
+    "usage": {"prompt_tokens": 280, "completion_tokens": 350, "total_tokens": 630},
+    "messages": [{"role": "user", "content": "Write a product description for a wireless noise-cancelling headphone targeting commuters. Include key features, comfort details, and a call to action."}],
+    "choices": [{"message": {"role": "assistant", "content": "Escape the noise of your daily commute with the AuraWave Pro wireless headphones. Featuring advanced adaptive noise cancellation, 40-hour battery life, and memory foam ear cushions designed for all-day comfort. Seamlessly switch between devices with multipoint Bluetooth 5.3. Whether you're on the train or in the office, experience studio-quality sound wherever life takes you. Order yours today and reclaim your peace."}}]
+  },
+  {
+    "id": "chatcmpl-023",
+    "model": "gpt-4-turbo",
+    "created": 1769558400,
+    "usage": {"prompt_tokens": 450, "completion_tokens": 400, "total_tokens": 850},
+    "messages": [{"role": "user", "content": "Create a 3-day meal plan for a vegetarian athlete training for a marathon. Include macronutrient estimates for each meal."}],
+    "choices": [{"message": {"role": "assistant", "content": "**Day 1**\nBreakfast: Oatmeal with banana, almond butter, chia seeds (Carbs 65g, Protein 18g, Fat 14g)\nLunch: Quinoa bowl with black beans, roasted sweet potato, avocado (Carbs 72g, Protein 22g, Fat 18g)\nDinner: Lentil curry with brown rice and steamed broccoli (Carbs 80g, Protein 24g, Fat 10g)\n\n**Day 2**\nBreakfast: Smoothie with spinach, protein powder, mixed berries (Carbs 45g, Protein 30g, Fat 8g)\nLunch: Whole wheat pasta with marinara, chickpeas, side salad (Carbs 85g, Protein 20g, Fat 12g)\nDinner: Tofu stir-fry with vegetables and jasmine rice (Carbs 70g, Protein 26g, Fat 15g)"}}]
+  },
+  {
+    "id": "chatcmpl-024",
+    "model": "gpt-4o",
+    "created": 1769644800,
+    "usage": {"prompt_tokens": 350, "completion_tokens": 250, "total_tokens": 600},
+    "messages": [{"role": "user", "content": "Summarize the key differences between TCP and UDP protocols in a comparison table format"}],
+    "choices": [{"message": {"role": "assistant", "content": "| Feature | TCP | UDP |\n|---------|-----|-----|\n| Connection | Connection-oriented | Connectionless |\n| Reliability | Guaranteed delivery | Best-effort |\n| Ordering | Ordered | No ordering |\n| Speed | Slower | Faster |\n| Use cases | Web, email, file transfer | Streaming, gaming, DNS |"}}]
+  },
+  {
+    "id": "chatcmpl-025",
+    "model": "gpt-4o-mini",
+    "created": 1769731200,
+    "usage": {"prompt_tokens": 220, "completion_tokens": 180, "total_tokens": 400},
+    "messages": [{"role": "user", "content": "Generate 5 unique username suggestions based on the name 'John Smith' that would work for a professional portfolio site"}],
+    "choices": [{"message": {"role": "assistant", "content": "1. jsmith-dev\n2. johnsmith.io\n3. smith-john\n4. j-smithworks\n5. thejohnsmith"}}]
+  },
+  {
+    "id": "chatcmpl-026",
+    "model": "gpt-4o",
+    "created": 1769817600,
+    "usage": {"prompt_tokens": 400, "completion_tokens": 300, "total_tokens": 700},
+    "messages": [{"role": "user", "content": "Write a professional email template for notifying stakeholders about a 2-week project delay. Include placeholders for project name, new timeline, and reason."}],
+    "choices": [{"message": {"role": "assistant", "content": "Subject: Update on [Project Name] Timeline\n\nDear [Stakeholder Name],\n\nI'm writing to inform you of an adjustment to the [Project Name] timeline. Due to [reason for delay], we have revised our delivery date to [new date].\n\nWe have taken the following steps to mitigate further impact:\n- [Action 1]\n- [Action 2]\n\nPlease let me know if you have questions.\n\nBest regards,\n[Your Name]"}}]
+  },
+  {
+    "id": "chatcmpl-027",
+    "model": "gpt-4-turbo",
+    "created": 1769904000,
+    "usage": {"prompt_tokens": 550, "completion_tokens": 450, "total_tokens": 1000},
+    "messages": [{"role": "user", "content": "Draft an API specification for a user registration endpoint. Include request body validation rules, possible HTTP status codes, and example request/response payloads."}],
+    "choices": [{"message": {"role": "assistant", "content": "## POST /api/v1/users/register\n\n**Request Body:**\n- email (string, required): Valid email format\n- password (string, required): Min 8 chars, 1 uppercase, 1 number\n- name (string, required): 2-100 characters\n\n**Responses:**\n- 201: User created successfully\n- 400: Validation error\n- 409: Email already registered\n\n**Example Request:**\n{\"email\": \"user@example.com\", \"password\": \"SecureP4ss\", \"name\": \"Jane Doe\"}\n\n**Example Response (201):**\n{\"id\": \"usr_abc123\", \"email\": \"user@example.com\", \"name\": \"Jane Doe\", \"created_at\": \"2026-01-15T10:30:00Z\"}"}}]
+  },
+  {
+    "id": "chatcmpl-028",
+    "model": "gpt-4o",
+    "created": 1769990400,
+    "usage": {"prompt_tokens": 380, "completion_tokens": 280, "total_tokens": 660},
+    "messages": [{"role": "user", "content": "Analyze this quarterly sales data and identify the top 3 trends: Q1 revenue $2.1M (+12%), Q2 revenue $2.4M (+14%), Q3 revenue $2.8M (+17%), Q4 revenue $3.1M (+11%). Enterprise segment grew 25% while SMB declined 3%."}],
+    "choices": [{"message": {"role": "assistant", "content": "**Top 3 Trends:**\n1. Accelerating revenue growth through Q3 with sequential improvement from 12% to 17%\n2. Enterprise segment is the primary growth driver at 25% growth, significantly outpacing overall company growth\n3. Q4 growth deceleration to 11% may indicate market saturation or seasonal effects — worth monitoring"}}]
+  },
+  {
+    "id": "chatcmpl-029",
+    "model": "gpt-4o",
+    "created": 1770076800,
+    "usage": {"prompt_tokens": 250, "completion_tokens": 200, "total_tokens": 450}
+  },
+  {
+    "id": "chatcmpl-030",
+    "model": "gpt-4o-mini",
+    "created": 1770163200,
+    "usage": {"prompt_tokens": 300, "completion_tokens": 150, "total_tokens": 450}
+  },
+  {
+    "id": "chatcmpl-031",
+    "model": "gpt-4-turbo",
+    "created": 1770249600,
+    "usage": {"prompt_tokens": 480, "completion_tokens": 350, "total_tokens": 830}
+  },
+  {
+    "id": "chatcmpl-032",
+    "model": "gpt-4o",
+    "created": 1770336000,
+    "usage": {"prompt_tokens": 600, "completion_tokens": 400, "total_tokens": 1000}
+  },
+  {
+    "id": "chatcmpl-033",
+    "model": "gpt-4o-mini",
+    "created": 1770422400,
+    "usage": {"prompt_tokens": 350, "completion_tokens": 280, "total_tokens": 630}
+  },
+  {
+    "id": "chatcmpl-034",
+    "model": "gpt-4o",
+    "created": 1770508800,
+    "usage": {"prompt_tokens": 420, "completion_tokens": 320, "total_tokens": 740}
+  },
+  {
+    "id": "chatcmpl-035",
+    "model": "gpt-4-turbo",
+    "created": 1770595200,
+    "usage": {"prompt_tokens": 550, "completion_tokens": 380, "total_tokens": 930}
+  },
+  {
+    "id": "chatcmpl-036",
+    "model": "gpt-4o",
+    "created": 1770681600,
+    "usage": {"prompt_tokens": 85, "completion_tokens": 650, "total_tokens": 735},
+    "messages": [{"role": "user", "content": "Write a Python function that implements binary search on a sorted list. Include type hints."}],
+    "choices": [{"message": {"role": "assistant", "content": "```python\ndef binary_search(arr: list[int], target: int) -> int:\n    left, right = 0, len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n```\n\nThis runs in O(log n) time. Returns the index of the target element, or -1 if not found."}}]
+  },
+  {
+    "id": "chatcmpl-037",
+    "model": "gpt-4o",
+    "created": 1770768000,
+    "usage": {"prompt_tokens": 250, "completion_tokens": 800, "total_tokens": 1050},
+    "messages": [{"role": "user", "content": "Debug this code:\n```python\ndef fibonacci(n):\n    if n <= 0:\n        return []\n    fib = [0, 1]\n    for i in range(2, n):\n        fib.append(fib[i-1] + fib[i-2])\n    return fib\n```\nIt returns incorrect results for n=1. Explain the bug and fix it step by step."}],
+    "choices": [{"message": {"role": "assistant", "content": "**Bug Analysis:**\n\nWhen `n=1`, the condition `n <= 0` is False, so it proceeds to create `fib = [0, 1]` which already has 2 elements. The loop `range(2, 1)` doesn't execute, so it returns `[0, 1]` instead of just `[0]`.\n\n**Fix:**\n\n```python\ndef fibonacci(n):\n    if n <= 0:\n        return []\n    if n == 1:\n        return [0]\n    fib = [0, 1]\n    for i in range(2, n):\n        fib.append(fib[i-1] + fib[i-2])\n    return fib\n```\n\nThe fix adds an explicit check for `n=1` before initializing the list with two elements."}}]
+  },
+  {
+    "id": "chatcmpl-038",
+    "model": "gpt-4-turbo",
+    "created": 1770854400,
+    "usage": {"prompt_tokens": 180, "completion_tokens": 900, "total_tokens": 1080},
+    "messages": [{"role": "user", "content": "Design a database schema for an e-commerce platform. Include tables for users, products, orders, and order items with proper relationships."}],
+    "choices": [{"message": {"role": "assistant", "content": "```sql\nCREATE TABLE users (\n    id SERIAL PRIMARY KEY,\n    email VARCHAR(255) UNIQUE NOT NULL,\n    password_hash VARCHAR(255) NOT NULL,\n    name VARCHAR(100) NOT NULL,\n    created_at TIMESTAMP DEFAULT NOW()\n);\n\nCREATE TABLE products (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(200) NOT NULL,\n    description TEXT,\n    price DECIMAL(10,2) NOT NULL,\n    stock INTEGER DEFAULT 0,\n    category VARCHAR(100)\n);\n\nCREATE TABLE orders (\n    id SERIAL PRIMARY KEY,\n    user_id INTEGER REFERENCES users(id),\n    status VARCHAR(20) DEFAULT 'pending',\n    total DECIMAL(10,2) NOT NULL,\n    created_at TIMESTAMP DEFAULT NOW()\n);\n\nCREATE TABLE order_items (\n    id SERIAL PRIMARY KEY,\n    order_id INTEGER REFERENCES orders(id),\n    product_id INTEGER REFERENCES products(id),\n    quantity INTEGER NOT NULL,\n    unit_price DECIMAL(10,2) NOT NULL\n);\n```"}}]
+  },
+  {
+    "id": "chatcmpl-039",
+    "model": "gpt-4o",
+    "created": 1770940800,
+    "usage": {"prompt_tokens": 300, "completion_tokens": 750, "total_tokens": 1050},
+    "messages": [{"role": "user", "content": "Analyze the following code and explain the time complexity step by step:\n```python\ndef find_pairs(arr, target):\n    seen = set()\n    pairs = []\n    for num in arr:\n        complement = target - num\n        if complement in seen:\n            pairs.append((complement, num))\n        seen.add(num)\n    return pairs\n```"}],
+    "choices": [{"message": {"role": "assistant", "content": "**Step-by-step complexity analysis:**\n\n1. `seen = set()` — O(1) initialization\n2. `pairs = []` — O(1) initialization\n3. `for num in arr:` — iterates n times where n = len(arr)\n4. `complement = target - num` — O(1) arithmetic\n5. `if complement in seen:` — O(1) average case for hash set lookup\n6. `pairs.append(...)` — O(1) amortized\n7. `seen.add(num)` — O(1) average case\n\n**Overall: O(n) time, O(n) space**\n\nThe algorithm trades space for time by using a hash set to achieve linear lookup instead of the naive O(n²) nested loop approach."}}]
+  },
+  {
+    "id": "chatcmpl-040",
+    "model": "gpt-4o",
+    "created": 1771027200,
+    "usage": {"prompt_tokens": 150, "completion_tokens": 600, "total_tokens": 750},
+    "messages": [{"role": "user", "content": "Compare microservices vs monolithic architecture for a startup with 5 engineers. List the pros and cons of each approach and give a recommendation."}],
+    "choices": [{"message": {"role": "assistant", "content": "**Monolithic Architecture**\nPros: Simpler deployment, easier debugging, lower operational overhead, faster initial development\nCons: Harder to scale individual components, technology lock-in, deployment risk increases with size\n\n**Microservices Architecture**\nPros: Independent scaling, technology flexibility, isolated failures, team autonomy\nCons: Distributed system complexity, network latency, data consistency challenges, DevOps overhead\n\n**Recommendation for a 5-person startup:** Start monolithic. The operational overhead of microservices (service mesh, distributed tracing, container orchestration) will slow a small team significantly. Extract services only when you hit concrete scaling bottlenecks."}}]
+  },
+  {
+    "id": "chatcmpl-041",
+    "model": "gpt-4-turbo",
+    "created": 1771113600,
+    "usage": {"prompt_tokens": 200, "completion_tokens": 850, "total_tokens": 1050},
+    "messages": [{"role": "user", "content": "Implement a rate limiter class in Python using the token bucket algorithm. It should support configurable rate and burst size."}],
+    "choices": [{"message": {"role": "assistant", "content": "```python\nimport time\nimport threading\n\n\nclass TokenBucketRateLimiter:\n    def __init__(self, rate: float, burst: int):\n        self.rate = rate\n        self.burst = burst\n        self.tokens = float(burst)\n        self.last_refill = time.monotonic()\n        self.lock = threading.Lock()\n\n    def _refill(self):\n        now = time.monotonic()\n        elapsed = now - self.last_refill\n        self.tokens = min(self.burst, self.tokens + elapsed * self.rate)\n        self.last_refill = now\n\n    def acquire(self) -> bool:\n        with self.lock:\n            self._refill()\n            if self.tokens >= 1:\n                self.tokens -= 1\n                return True\n            return False\n\n    def wait(self):\n        while not self.acquire():\n            time.sleep(1.0 / self.rate)\n```"}}]
+  },
+  {
+    "id": "chatcmpl-042",
+    "model": "gpt-4o",
+    "created": 1771200000,
+    "usage": {"prompt_tokens": 1200, "completion_tokens": 500, "total_tokens": 1700},
+    "messages": [
+      {"role": "system", "content": "You are a senior backend engineer reviewing pull requests. Be thorough but constructive."},
+      {"role": "user", "content": "Review this Express middleware for authentication. Check for security issues, error handling gaps, and suggest improvements. The middleware extracts a JWT from the Authorization header, verifies it, and attaches the user to the request object. It also checks if the user account is active and has the required role permissions."}
+    ],
+    "choices": [{"message": {"role": "assistant", "content": "**Security Issues:**\n1. Ensure you're checking token expiration explicitly\n2. Use constant-time comparison for token validation\n3. The role check should happen after user lookup, not from token claims alone\n\n**Error Handling:**\n1. Differentiate between expired tokens (401) and malformed tokens (400)\n2. Log failed auth attempts for security monitoring\n\n**Improvements:**\n1. Cache user lookups to reduce DB queries per request\n2. Consider refresh token rotation\n3. Add rate limiting on the auth middleware itself"}}]
+  },
+  {
+    "id": "chatcmpl-043",
+    "model": "gpt-4o",
+    "created": 1771286400,
+    "usage": {"prompt_tokens": 350, "completion_tokens": 1100, "total_tokens": 1450},
+    "messages": [
+      {"role": "system", "content": "You are a Python expert. Provide detailed, production-ready code."},
+      {"role": "user", "content": "Refactor this function to use async/await and add proper error handling. Currently it makes 3 sequential HTTP calls that could be parallelized."}
+    ],
+    "choices": [{"message": {"role": "assistant", "content": "```python\nimport asyncio\nimport httpx\n\n\nasync def fetch_dashboard_data(user_id: str) -> dict:\n    async with httpx.AsyncClient(timeout=10.0) as client:\n        tasks = [\n            client.get(f'/api/users/{user_id}/profile'),\n            client.get(f'/api/users/{user_id}/orders'),\n            client.get(f'/api/users/{user_id}/notifications'),\n        ]\n        results = await asyncio.gather(*tasks, return_exceptions=True)\n\n    data = {}\n    for key, result in zip(['profile', 'orders', 'notifications'], results):\n        if isinstance(result, Exception):\n            data[key] = None\n        else:\n            result.raise_for_status()\n            data[key] = result.json()\n\n    return data\n```\n\nKey changes:\n- All 3 requests run concurrently via `asyncio.gather`\n- `return_exceptions=True` prevents one failure from cancelling others\n- Timeout prevents hanging on slow endpoints"}}]
+  },
+  {
+    "id": "chatcmpl-044",
+    "model": "gpt-4o",
+    "created": 1771372800,
+    "usage": {"prompt_tokens": 1500, "completion_tokens": 800, "total_tokens": 2300}
+  },
+  {
+    "id": "chatcmpl-045",
+    "model": "gpt-4-turbo",
+    "created": 1771459200,
+    "usage": {"prompt_tokens": 2000, "completion_tokens": 1200, "total_tokens": 3200}
+  },
+  {
+    "id": "chatcmpl-046",
+    "model": "gpt-4o",
+    "created": 1771545600,
+    "usage": {"prompt_tokens": 1800, "completion_tokens": 950, "total_tokens": 2750}
+  },
+  {
+    "id": "chatcmpl-047",
+    "model": "gpt-4o",
+    "created": 1771632000,
+    "usage": {"prompt_tokens": 1100, "completion_tokens": 600, "total_tokens": 1700}
+  },
+  {
+    "id": "chatcmpl-048",
+    "model": "gpt-4-turbo",
+    "created": 1771718400,
+    "usage": {"prompt_tokens": 2500, "completion_tokens": 1500, "total_tokens": 4000}
+  },
+  {
+    "id": "chatcmpl-049",
+    "model": "gpt-4o",
+    "created": 1771804800,
+    "usage": {"prompt_tokens": 3000, "completion_tokens": 2000, "total_tokens": 5000}
+  },
+  {
+    "id": "chatcmpl-050",
+    "model": "gpt-4o",
+    "created": 1771891200,
+    "usage": {"prompt_tokens": 1300, "completion_tokens": 700, "total_tokens": 2000}
+  }
+]
