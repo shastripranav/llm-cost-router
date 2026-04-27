@@ -36,9 +36,7 @@ class TestRecommendTarget:
         assert target == "gpt-4o-mini"
 
     def test_medium_override(self):
-        target = recommend_target(
-            "gpt-4o", "medium", overrides={"medium": "mistral-small"}
-        )
+        target = recommend_target("gpt-4o", "medium", overrides={"medium": "mistral-small"})
         assert target == "mistral-small"
 
 
@@ -47,24 +45,34 @@ class TestGenerateMigrationPlan:
     def sample_records(self):
         return [
             QueryRecord(
-                model="gpt-4o", prompt_tokens=50,
-                completion_tokens=20, complexity="simple",
+                model="gpt-4o",
+                prompt_tokens=50,
+                completion_tokens=20,
+                complexity="simple",
             ),
             QueryRecord(
-                model="gpt-4o", prompt_tokens=60,
-                completion_tokens=30, complexity="simple",
+                model="gpt-4o",
+                prompt_tokens=60,
+                completion_tokens=30,
+                complexity="simple",
             ),
             QueryRecord(
-                model="gpt-4o", prompt_tokens=400,
-                completion_tokens=200, complexity="medium",
+                model="gpt-4o",
+                prompt_tokens=400,
+                completion_tokens=200,
+                complexity="medium",
             ),
             QueryRecord(
-                model="gpt-4o", prompt_tokens=1500,
-                completion_tokens=800, complexity="complex",
+                model="gpt-4o",
+                prompt_tokens=1500,
+                completion_tokens=800,
+                complexity="complex",
             ),
             QueryRecord(
-                model="gpt-4-turbo", prompt_tokens=100,
-                completion_tokens=50, complexity="simple",
+                model="gpt-4-turbo",
+                prompt_tokens=100,
+                completion_tokens=50,
+                complexity="simple",
             ),
         ]
 

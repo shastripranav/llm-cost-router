@@ -52,14 +52,16 @@ def classify_cmd(logfile, fmt, output):
     for rec in records:
         result = classify_query(rec)
         rec.complexity = result.complexity
-        results.append({
-            "model": rec.model,
-            "prompt_tokens": rec.prompt_tokens,
-            "completion_tokens": rec.completion_tokens,
-            "complexity": result.complexity,
-            "confidence": result.confidence,
-            "signals": result.signals,
-        })
+        results.append(
+            {
+                "model": rec.model,
+                "prompt_tokens": rec.prompt_tokens,
+                "completion_tokens": rec.completion_tokens,
+                "complexity": result.complexity,
+                "confidence": result.confidence,
+                "signals": result.signals,
+            }
+        )
 
     if output:
         with open(output, "w") as f:
@@ -135,9 +137,7 @@ def savings_cmd(logfile, fmt):
 
 
 @cli.command("pricing")
-@click.option(
-    "--update", type=click.Path(exists=True), help="Merge custom pricing from JSON file"
-)
+@click.option("--update", type=click.Path(exists=True), help="Merge custom pricing from JSON file")
 def pricing_cmd(update):
     """Show built-in pricing table or merge custom overrides."""
     if update:
