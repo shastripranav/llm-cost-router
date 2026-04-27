@@ -39,7 +39,7 @@ def _parse_ts(entry: dict) -> datetime | None:
     if raw is None:
         return None
     if isinstance(raw, str):
-        return datetime.fromisoformat(raw)
+        return datetime.fromisoformat(raw.replace("Z", "+00:00"))
     if isinstance(raw, (int, float)):
         return datetime.fromtimestamp(raw, tz=timezone.utc)
     return None
