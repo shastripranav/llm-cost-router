@@ -28,9 +28,7 @@ def generate_markdown_report(report: AnalysisReport) -> str:
     for complexity in ["simple", "medium", "complex"]:
         count = report.distribution.get(complexity, 0)
         pct = (count / report.total_queries * 100) if report.total_queries else 0
-        tier_cost = sum(
-            t.current_cost for t in report.migration_plan if t.complexity == complexity
-        )
+        tier_cost = sum(t.current_cost for t in report.migration_plan if t.complexity == complexity)
         lines.append(
             f"| {complexity.capitalize():<10} | {count:>5,} | {pct:>9.1f}% | ${tier_cost:>10,.2f} |"
         )
@@ -65,9 +63,7 @@ def generate_markdown_report(report: AnalysisReport) -> str:
     lines.append("## Projected Savings")
     lines.append(f"- **Current monthly cost:** ${report.current_total_cost:,.2f}")
     lines.append(f"- **Projected monthly cost:** ${report.projected_total_cost:,.2f}")
-    lines.append(
-        f"- **Monthly savings:** ${report.total_savings:,.2f} ({report.savings_pct:.1f}%)"
-    )
+    lines.append(f"- **Monthly savings:** ${report.total_savings:,.2f} ({report.savings_pct:.1f}%)")
     lines.append(f"- **Annual savings:** ${report.total_savings * 12:,.2f}")
     lines.append("")
 

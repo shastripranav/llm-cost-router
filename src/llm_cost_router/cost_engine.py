@@ -60,13 +60,15 @@ def aggregate_costs(
     estimates = []
     for model, d in sorted(buckets.items()):
         avg = d["cost"] / d["count"] if d["count"] else 0.0
-        estimates.append(CostEstimate(
-            model=model,
-            total_queries=d["count"],
-            total_input_tokens=d["input_tok"],
-            total_output_tokens=d["output_tok"],
-            total_cost=round(d["cost"], 6),
-            avg_cost_per_query=round(avg, 6),
-        ))
+        estimates.append(
+            CostEstimate(
+                model=model,
+                total_queries=d["count"],
+                total_input_tokens=d["input_tok"],
+                total_output_tokens=d["output_tok"],
+                total_cost=round(d["cost"], 6),
+                avg_cost_per_query=round(avg, 6),
+            )
+        )
 
     return estimates

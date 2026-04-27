@@ -14,11 +14,17 @@ DEFAULT_TARGETS: dict[str, list[str]] = {
     "complex": [],
 }
 
-BUDGET_MODELS = frozenset({
-    "gpt-4o-mini", "gpt-3.5-turbo", "claude-3-haiku",
-    "gemini-1.5-flash", "mistral-small",
-    "llama-3.1-8b", "llama-3.1-70b",
-})
+BUDGET_MODELS = frozenset(
+    {
+        "gpt-4o-mini",
+        "gpt-3.5-turbo",
+        "claude-3-haiku",
+        "gemini-1.5-flash",
+        "mistral-small",
+        "llama-3.1-8b",
+        "llama-3.1-70b",
+    }
+)
 
 
 def recommend_target(
@@ -85,16 +91,18 @@ def generate_migration_plan(
         savings = cur_cost - proj_cost
         pct = (savings / cur_cost * 100) if cur_cost > 0 else 0.0
 
-        migration_targets.append(MigrationTarget(
-            current_model=model,
-            complexity=complexity,
-            recommended_model=target_model,
-            query_count=len(group_records),
-            current_cost=round(cur_cost, 4),
-            projected_cost=round(proj_cost, 4),
-            savings=round(savings, 4),
-            savings_pct=round(pct, 1),
-        ))
+        migration_targets.append(
+            MigrationTarget(
+                current_model=model,
+                complexity=complexity,
+                recommended_model=target_model,
+                query_count=len(group_records),
+                current_cost=round(cur_cost, 4),
+                projected_cost=round(proj_cost, 4),
+                savings=round(savings, 4),
+                savings_pct=round(pct, 1),
+            )
+        )
 
     total_savings = current_total - projected_total
 

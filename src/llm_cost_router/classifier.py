@@ -9,17 +9,43 @@ import re
 
 from .models import ClassificationResult, QueryRecord
 
-REASONING_KEYWORDS = frozenset({
-    "analyze", "compare", "design", "debug", "evaluate", "architect",
-    "optimize", "refactor", "implement", "trade-off", "trade off",
-    "pros and cons", "step by step", "reason through", "explain why",
-})
+REASONING_KEYWORDS = frozenset(
+    {
+        "analyze",
+        "compare",
+        "design",
+        "debug",
+        "evaluate",
+        "architect",
+        "optimize",
+        "refactor",
+        "implement",
+        "trade-off",
+        "trade off",
+        "pros and cons",
+        "step by step",
+        "reason through",
+        "explain why",
+    }
+)
 
-SIMPLE_TASK_KEYWORDS = frozenset({
-    "translate", "summarize", "classify", "extract", "list",
-    "convert", "format", "rewrite", "fix grammar", "define",
-    "what is", "how many", "name the",
-})
+SIMPLE_TASK_KEYWORDS = frozenset(
+    {
+        "translate",
+        "summarize",
+        "classify",
+        "extract",
+        "list",
+        "convert",
+        "format",
+        "rewrite",
+        "fix grammar",
+        "define",
+        "what is",
+        "how many",
+        "name the",
+    }
+)
 
 _CODE_BLOCK_RE = re.compile(r"```[\s\S]*?```")
 _CODE_INDICATORS = re.compile(
