@@ -1,5 +1,7 @@
 # LLM Cost Router & Migration Toolkit
 
+[![CI](https://github.com/shastripranav/llm-cost-router/actions/workflows/ci.yml/badge.svg)](https://github.com/shastripranav/llm-cost-router/actions/workflows/ci.yml)
+
 Analyze LLM API usage logs, classify query complexity, and generate migration plans with cost savings estimates.
 
 This is the **analysis and planning layer** that runs before you set up routing — answering: "Which of my queries can safely move to a cheaper model, and how much will I save?"
